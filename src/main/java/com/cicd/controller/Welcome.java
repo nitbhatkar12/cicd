@@ -10,4 +10,9 @@ public class Welcome {
     public String displayMessage(){
         return "Welcome to CICD!";
     }
+
+    @GetMapping("/cicd")
+    public String displayCicd(){
+        return "Welcome to CICD!";
+    }
 }
