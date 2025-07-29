@@ -15,4 +15,9 @@ public class Welcome {
     public String displayCicd(){
         return "Welcome to CICD!";
     }
+
+    @GetMapping("/auto")
+    public String displayAuto(){
+        return "Welcome to CICD!";
+    }
 }
